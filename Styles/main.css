@@ -1,0 +1,81 @@
+
+body{
+    background: url('IMEGES/backgrounds/bg\(4\).jpg') no-repeat center center fixed;
+}
+
+button {
+    background: transparent;
+    border: 2px solid #ffffff44;
+    padding: 10px 20px;
+    margin: 5px;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    border-color: #ff6600;
+    color: #ff6600;
+    text-shadow: 0 0 5px #ff6600;
+}
+
+button:active{
+    background-color: #ff6600;
+    color: #000;
+    border-color: #000;
+}
+
+button h1 {
+    font-size: 1rem;
+    font-weight: normal;
+    margin: 0;
+}
+
+#main-nav-up{
+    display: flex;
+    flex-direction: column;
+}
+
+canvas{
+    background-color: #252525;
+    border: 2px solid #ff6600 ;
+    /* border-radius: 1cap; */
+}
+
+.canvas-div{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-nav-up-burger{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.main-nav-up-burger button{
+    width: 50%;
+}
+
+.main-nav-up-burger input {
+    background: transparent;
+    border: 2px solid #ffffff44;
+    padding: 10px 20px;
+    margin: 5px;
+    color: #fff;
+    transition: all 0.3s ease;
+    width: 50%;
+}
+
+input[type='number'] {
+    -moz-appearance: textfield;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ff6600;
+}
+
+
